@@ -5801,7 +5801,7 @@ else {
         var showServers = function () {
 
 
-            $('#mm-event-text').replaceWith('<div class="text-vnxx"><a href="https://www.wormatefriendsturkey.com">Ã–zledin Mi Kokumu :)</a></div>');
+            $('#mm-event-text').replaceWith('<div class="text-vnxx"><a href="https://www.wormate.io.com">welcome to wormate.io :)</a></div>');
 
 
 
@@ -5886,8 +5886,8 @@ else {
             
         <div onclick="openPopup()"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#fff;font-size: 25px;"> </i> Ayarlar</div>
         <div id="popup" class="popup">
-        <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#fff;font-size: 25px;"></i> Wormate Friends Ayarlar</div>
-        <button class="close-button" onclick="closePopup()">Kapat</button>
+        <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#fff;font-size: 25px;"></i> Wormate Setings</div>
+        <button class="close-button" onclick="closePopup()">Close</button>
         
                     <div id="kich-hoat">
                 
@@ -5904,21 +5904,21 @@ else {
         <tr>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Yetenekli Lut Topla :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Eat fast :</span>
                     <input class="settings-switchZoom" id="settings-Abilityzoom-switch" type="checkbox"/>
                     <label for="settings-Abilityzoom-switch"></label>
                     </div>
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> YayÄ±ncÄ± Modu :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i>  Modu strim :</span>
                     <input class="settings-switchZoom" id="settings-stremingmode-switch" type="checkbox"/>
                     <label for="settings-stremingmode-switch"></label>
                     </div>
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Toplam HS-KL Kaydet : </span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> all HS-KL save : </span>
                     <input class="settings-switchZoom" id="settings-stremingmodesaveheadshot-switch" type="checkbox"/>
                     <label for="settings-stremingmodesaveheadshot-switch"></label>
                     </div>
@@ -5934,14 +5934,14 @@ else {
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Emoji Kapat :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Close Emoji  :</span>
                     <input class="settings-switchZoom" id="settings-stremingmodeemoj-switch" type="checkbox"/>
                     <label for="settings-stremingmodeemoj-switch"></label>
                     </div>
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Headshot sesini kapat :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Close Headshot sounds:</span>
                     <input class="settings-switchZoom" id="settings-stremingmodeheadshot-switch" type="checkbox"/>
                     <label for="settings-stremingmodeheadshot-switch"></label>
                     </div>
@@ -5955,11 +5955,11 @@ else {
     <tbody>
         <tr>
             <td>
-            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ffffff;font-size: 25px;"></i> Mouse SeÃ§enekleri</div>
+            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ffffff;font-size: 25px;"></i> Mouse coustom</div>
                     <div class="cursor-container"><div id="default-cursor-btn"><img style="margin-top: -45px; margin-right: 60px; float: right; width: 25px; height: 28px;" class="img" alt="Imgur-Upload" src="https://i.imgur.com/rI522o3.png"></div></div>
             </td>
             <td>
-            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ffffff;font-size: 25px;"></i> Arka Plan SeÃ§enekleri</div>
+            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ffffff;font-size: 25px;"></i> change Backgrounds</div>
                     <div class="background-container"></div>
             </td>
         </tr>
@@ -5975,7 +5975,7 @@ else {
     <button id="resetScript" class="reset-button">Cache Delete</button>
 </div>
 
-<center><div class="hg"><a target="_blank" href="https://wa.me/905544655080/">AktifleÅŸtir (Ãœnal)</a></div></center>
+<center><div class="hg"><a target="_blank" href="https://discord.gg/vfzKX2Xj">developer(25YT)</a></div></center>
 
 
            
@@ -6125,11 +6125,11 @@ document.getElementById("resetScript").addEventListener("click", async function(
             <div class="vietnam" style="display: grid !important; grid-template-columns: 1fr 1fr 1fr;gap: 8.5px;">
             
             
-    <input type="button" value="EKRAN" class="fullscreen_button">
+    <input type="button" value="fullscreen" class="fullscreen_button">
     
-    <input type="button" value="TEKRAR" id="hoisinh" class="fullscreen_respawn">
+    <input type="button" value="respawn" id="hoisinh" class="fullscreen_respawn">
     
-    <input type="button" value="Ä°LETÄ°ÅžÄ°M" onclick="window.location.href='https://wa.me/905544655080'" class="fullscreen_contact">
+    <input type="button" value="activasion" onclick="window.location.href='https://discord.gg/vfzKX2Xj'" class="fullscreen_contact">
     </div>
     
     
@@ -6190,7 +6190,7 @@ document.getElementById("resetScript").addEventListener("click", async function(
                         <a href="javascript:void(0);" onclick="changeServer('peru')"> 
                             <span class="flag br" value="https://i.imgur.com/OtgNl1Z.png">
 <div class="title-wormate-yildo-flag" style="position: absolute; top: 0; z-index: 1; width: 92%; margin-left: -2px;">
-    <img src="https://i.imgur.com/IIhj1yl.png" width="20" align="center" alt="">Wormate Friends Turkey
+    <img src="https://i.imgur.com/N8bQqqU.png" width="20" align="center" alt=""> Wormate 
 </div>
                             </span> 
                         </a>
@@ -6403,19 +6403,19 @@ document.getElementById("resetScript").addEventListener("click", async function(
                       <ul style="list-style: none; padding: 0; margin: 0;">
                         <li style="margin-bottom: 4px;">
                         <i class="fa fa-link" aria-hidden="true" style="margin-right: 8px;"></i>
-                        <a href="https://wormatefriendsturkey.com/ios2025.zip" style="color: #ffffff; text-decoration: none; font-weight: bold;"> IOS Dosyasi Indir</a>
+                        <a href="https://wormatefriendsturkey.com/ios2025.zip" style="color: #ffffff; text-decoration: none; font-weight: bold;"> IOS file</a>
                         </li> 
                         <li style="margin-bottom: 4px;">
                         <i class="fa fa-link" aria-hidden="true" style="margin-right: 8px;"></i>
-                        <a href="https://wormatefriendsturkey.com/skinlab/css/index.html" style="color: #ffffff; text-decoration: none; font-weight: bold;"> WFT SkinLab Â©</a>
+                        <a href="" style="color: #ffffff; text-decoration: none; font-weight: bold;"> SkinLab </a>
                         </li>                        
                         <li style="margin-bottom: 4px;">
                         <i class="fa fa-link" aria-hidden="true" style="margin-right: 8px;"></i>
-                        <a href="https://discord.gg/3cWfjYPY" style="color: #ffffff; text-decoration: none; font-weight: bold;">Discord KanalÄ±mÄ±za GÃ¶z AtÄ±n</a>
+                        <a href="" style="color: #ffffff; text-decoration: none; font-weight: bold;">Discord</a>
                         </li>
                       </ul>
                     </div>
-                      <img src="https://i.imgur.com/wfwkN4T.png" width="210" height="180" align="center" alt="">
+                      <img src="https://i.imgur.com/lSUHGJD.png" width="210" height="180" align="center" alt="">
                   </div>
                 </div>
                 `);
@@ -6433,7 +6433,7 @@ document.getElementById("resetScript").addEventListener("click", async function(
                           border-radius: 10px;
                           border: solid #ffffff 2px;
                         " 
-                        id="getskin">ðŸ”DESENLERIMI AC</button>
+                        id="getskin">Locked all skins</button>
                     </div>
                   `);
                 
@@ -6640,7 +6640,7 @@ window.onwheel = (event) => {
             window.applyGraphicsSettings = function (level) {
                 switch (level) {
                     case "low":
-                        console.log("Low grafik ayarlarÄ± uygulanÄ±yor...");
+                        console.log("Low grafik SetingsÄ± uygulanÄ±yor...");
                         
                         // Grafik ayarlarÄ±
                         theowftObjects.FoodTransparent = 0.1;
@@ -7129,7 +7129,7 @@ $("#background-canvas").replaceWith(`
             
 <a class="link" hreflang="en" href="https://wormate.io">Home</a>
 <a class="link" hreflang="en" href="https://wormate.io/privacy-policy">Privacy Policy</a>            
-<a class="link" hreflang="en" href="https://WormateFriendsTurkey.com">Â© 2025 Wormate Friends Turkey Â© Powered by TC TEAM AILESI!</a>
+<a class="link" hreflang="en" href="">A© 2025 Wormate  A© Powered by 25YT!</a>
             </footer>
 
 
