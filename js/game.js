@@ -3372,6 +3372,7 @@ else {
 
                     var EMOJI_HEADSHOT = POGL.$b.from("https://i.imgur.com/EDt862t.png");
                     var EMOJI_KILL = POGL.$b.from("https://i.imgur.com/U5sTlhC.png");
+                    var _0x92ba1f = _0x1c8759.$b.from('https://i.imgur.com/LFiCido.png');
 
                     
 
