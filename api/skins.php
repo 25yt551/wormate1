@@ -54584,7 +54584,7 @@
 
       "id": "TC Team",
 
-      "img": "tc team2.png",
+      "img": "https://25-yt.github.io/wormking/images/paths/st.png",
 
       "name": {
 
