@@ -2047,7 +2047,7 @@ var _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator 
                           }       
 
 
-    var backgroundSprite_1 = error("Headshot ðŸ”¥ ", true);
+    var backgroundSprite_1 = error(" Headshot  ", true);
     this.addChild(backgroundSprite_1);
     this.Pe.push(backgroundSprite_1);
 
