@@ -366,7 +366,7 @@ ctx.value_tophs.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 1. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top1 = new PIXI.Text("1. UNALðŸ’«Tâ˜ª áµ€á´±á´¬á´¹ (94.4M)", ctx.fontStyle.name);
+ctx.value_top1 = new PIXI.Text("1. 25YT (94.4M)", ctx.fontStyle.name);
 ctx.value_top1.x = 12;
 ctx.value_top1.y = 170;
 ctx.value_top1.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -374,7 +374,7 @@ ctx.value_top1.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 2. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top2 = new PIXI.Text("2. AtikaðŸŽ€Tunisia (60.0M)", ctx.fontStyle.name);
+ctx.value_top2 = new PIXI.Text("2. Diyo74 (60.0M)", ctx.fontStyle.name);
 ctx.value_top2.x = 12;
 ctx.value_top2.y = 185;
 ctx.value_top2.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -382,7 +382,7 @@ ctx.value_top2.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 3. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top3 = new PIXI.Text("3. YT ðŸ›‘ LIVE 52 BUZ (38.9M)", ctx.fontStyle.name);
+ctx.value_top3 = new PIXI.Text("3. Kurdo Gaming 101 (38.9M)", ctx.fontStyle.name);
 ctx.value_top3.x = 12;
 ctx.value_top3.y = 200;
 ctx.value_top3.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -390,7 +390,7 @@ ctx.value_top3.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 4. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top4 = new PIXI.Text("4. TIK ZEKO (18.4M)", ctx.fontStyle.name);
+ctx.value_top4 = new PIXI.Text("4. Malboro (18.4M)", ctx.fontStyle.name);
 ctx.value_top4.x = 12;
 ctx.value_top4.y = 215;
 ctx.value_top4.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -398,7 +398,7 @@ ctx.value_top4.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 5. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top5 = new PIXI.Text("5. TIK GICIKBEY (17.3M)", ctx.fontStyle.name);
+ctx.value_top5 = new PIXI.Text("5. Abod (17.3M)", ctx.fontStyle.name);
 ctx.value_top5.x = 12;
 ctx.value_top5.y = 230;
 ctx.value_top5.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -4633,10 +4633,10 @@ else {
                        
                         
                          $("#final-continue").html(`
-                         <div id="final-continue1">Devam(Ana Sayfa)</div>
+                         <div id="final-continue1">Continue)</div>
                          `);
                          
-                       $("#final-continue").after("<div id='final-replay'>Tekrar BaÅŸla !</div>");
+                       $("#final-continue").after("<div id='final-replay'>Let's play again? !</div>");
                          
                          
                         
