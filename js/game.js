@@ -2062,7 +2062,7 @@ var _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator 
 
 
 else {
-    var backgroundSprite_1 = error("ðŸŒŸ Well Done !", false);
+    var backgroundSprite_1 = error(" Well Done !", false);
                         this.addChild(backgroundSprite_1);
                         this.Pe.push(backgroundSprite_1);
                         if (backgroundSprite_1) {
@@ -4147,9 +4147,9 @@ else {
                         }
                     
                         if (headshotHappened) {
-                            this.xEmojiType_headshot.jh.visible = true; // Headshot olduysa emoji_headshot gÃ¶rÃ¼nÃ¼r
+                            this.xEmojiType_headshot.jh.visible = true; // Headshot olduysa emoji_headshot 
                         } else {
-                            this.xEmojiType_headshot.jh.visible = false; // Headshot yoksa emoji_headshot gizlenir
+                            this.xEmojiType_headshot.jh.visible = false; // Headshot yoksa emoji_headshot 
                         }
                     }, t;
                     
