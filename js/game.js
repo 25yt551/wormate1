@@ -5884,7 +5884,7 @@ else {
             <div id="mm-store" style="float: right;position: relative;margin-right: 10px;min-width: 140px;">
             <div style="margin: 0;" id="loa831pibur0w4gv">
             
-        <div onclick="openPopup()"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#fff;font-size: 25px;"> </i> Ayarlar</div>
+        <div onclick="openPopup()"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#fff;font-size: 25px;"> </i> Setings</div>
         <div id="popup" class="popup">
         <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#fff;font-size: 25px;"></i> Wormate Setings</div>
         <button class="close-button" onclick="closePopup()">Close</button>
