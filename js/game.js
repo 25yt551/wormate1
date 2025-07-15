@@ -5736,7 +5736,7 @@ else {
 
         htmlCont += '<div id="wormcerca">';
         htmlCont += '<img class="pwrups v0" style="display: none;" src="https://i.imgur.com/M1LFPpp.png">';
-        htmlCont += '<img class="pwrups v1" style="display: none;" src="https://i.imgur.com/z162iYa.png">';
+        htmlCont += '<img class="pwrups v1" style="display: none;" src="https://i.imgur.com/jrOtu4y.png">';
         htmlCont += '<img class="pwrups v2" style="display: none;" src="https://i.imgur.com/kXlF32q.png">';
         htmlCont += '<img class="pwrups v3" style="display: none;" src="https://i.imgur.com/kJ6oz7e.png">';
         htmlCont += '<img class="pwrups v4" style="display: none;" src="https://i.imgur.com/l3ds43O.png">';
@@ -6188,7 +6188,7 @@ document.getElementById("resetScript").addEventListener("click", async function(
                 <ul style="margin-top: 5px;" class="ui-tabs-nav">
                     <li class="ui-tabs-tab ui-tab ui-tab-inactive0 ui-tab-active" style="margin: -5px">
                         <a href="javascript:void(0);" onclick="changeServer('peru')"> 
-                            <span class="flag br" value="https://i.imgur.com/OtgNl1Z.png">
+                            <span class="flag br" value="https://i.imgur.com/EkbSd65.png">
 <div class="title-wormate-yildo-flag" style="position: absolute; top: 0; z-index: 1; width: 92%; margin-left: -2px;">
     <img src="https://i.imgur.com/N8bQqqU.png" width="20" align="center" alt=""> Wormate 
 </div>
