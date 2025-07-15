@@ -41096,9 +41096,9 @@
 
       "id": 739,
 
-      "guest": false,
+      "guest": true,
 
-      "nonbuyable": false,
+      "nonbuyable": true,
 
       "price": 0,
 
