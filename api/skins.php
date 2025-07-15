@@ -59652,9 +59652,9 @@
 
     "skin_ünalgamingnew": {
 
-      "custom": false,
+      "custom": true,
 
-      "relativePath": "https://i.imgur.com/2GTAXK8.png"
+      "relativePath": "https://i.imgur.com/qsHEF69.png"
 
     },
 
