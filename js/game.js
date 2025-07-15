@@ -2472,11 +2472,11 @@ else {
                     if (!Number.prototype.customFormat) {
                         Number.prototype.customFormat = function () {
                             if (this >= 1e9) { // 1 milyar ve Ã¼zeri
-                                return (this / 1e9).toFixed(1) + "BðŸ©";
+                                return (this / 1e9).toFixed(1) + "milion";
                             } else if (this >= 1e6) { // 1 milyon ve Ã¼zeri
-                                return (this / 1e6).toFixed(1) + "MðŸ§";
+                                return (this / 1e6).toFixed(1) + "milion";
                             } else if (this >= 1e3) { // 1.000 ve Ã¼zeri
-                                return (this / 1e3).toFixed(0) + "kðŸ¬";
+                                return (this / 1e3).toFixed(0) + "k¬";
                             } else {
                                 return this.dotFormat();
                             }
@@ -5770,7 +5770,7 @@ else {
         </div>
         
       <div class="container1">
-      <span class="settings_span">Ä°tem AyarlarÄ± Ã‡emberi: </span>
+      <span class="settings_span">Ä°tem SetingsÄ± Ã‡emberi: </span>
       <input id="PortionAura" class="range" type="range" min="1.2" max="3.2" value="' + theowftObjects.PortionAura + '" step="0.2" onmousemove="PortionAuravalue.value=value" />
       </div>
        
