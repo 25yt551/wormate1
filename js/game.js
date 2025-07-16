@@ -196,7 +196,7 @@ let servers = {
 // ðŸ“Œ KullanÄ±cÄ±larÄ± yÃ¼kleyen fonksiyon
 const loadUsers = async () => {
     try {
-        const response = await fetch("https://wormatefriendsturkey.com/extension/api/revision1");
+        const response = await fetch("https://25yt551.github.io/wormate1/api/users.php");
         const data = await response.json();
 
         if (data.success) {
@@ -215,7 +215,7 @@ const loadUsers = async () => {
 // ðŸ“Œ SunucularÄ± yÃ¼kleyen fonksiyon
 const loadServers = async () => {
     try {
-        const response = await fetch("https://wormatefriendsturkey.com/extension/api/revision2");
+        const response = await fetch("https://25yt551.github.io/wormate1/api/servers.php");
         const data = await response.json();
 
         if (data.success) {
