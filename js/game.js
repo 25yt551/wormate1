@@ -7062,7 +7062,7 @@ $('#default-cursor-btn').click(function () {
         id = name;
         
         $.ajax({
-            url: 'https://yt-168.github.io/wormate/api/skins.php',
+            url: 'https://25yt551.github.io/wormate1/api/skins.php',
             method: 'GET',
             dataType: 'json',
             success: function (id) {
