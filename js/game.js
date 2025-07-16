@@ -5800,7 +5800,7 @@ else {
         var showServers = function () {
 
 
-            $('#mm-event-text').replaceWith('<div class="text-vnxx"><a href="https://www.wormatefriendsturkey.com">Ã–zledin Mi Kokumu :)</a></div>');
+            $('#mm-event-text').replaceWith('<div class="text-vnxx"><a href=""> Worm.XT :)</a></div>');
 
 
 
@@ -5841,27 +5841,27 @@ else {
 <img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="GÃ¼rsel01">
 <img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="KRDNZ">
 <img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Lilyum02">
-<img src="https://i.imgur.com/T1x0ma7.jpeg" width="100" height="46" alt="Teacher02">
-<img src="https://i.imgur.com/57NQwN3.jpeg" width="100" height="46" alt="Gezegen">
-<img src="https://i.imgur.com/AvXjcKn.png" width="100" height="46" alt="Prenses">
-<img src="https://i.imgur.com/IbT68fn.png" width="100" height="46" alt="Matador03">
-<img src="https://i.imgur.com/wjxHiIm.jpeg" width="100" height="46" alt="RooxBlue">
-<img src="https://i.imgur.com/tlLTEzo.jpeg" width="100" height="46" alt="MÃ¼bariz">
-<img src="https://i.imgur.com/RDJv8kh.png" width="100" height="46" alt="Joker">
-<img src="https://i.imgur.com/if1Z4Zs.png" width="100" height="46" alt="Uzman02">
-<img src="https://i.imgur.com/a46L161.jpeg" width="100" height="46" alt="Asel">
-<img src="https://i.imgur.com/CoDA0f5.png" width="100" height="46" alt="Pacman01">
-<img src="https://i.imgur.com/7gc74xH.png" width="100" height="46" alt="Sinan67">
-<img src="https://i.imgur.com/ZvSIsN8.jpeg" width="100" height="46" alt="Hayalet">
-<img src="https://i.imgur.com/lFy75QE.png" width="100" height="46" alt="Furkan">
-<img src="https://i.imgur.com/JYc1tcc.png" width="100" height="46" alt="Akinci02">
-<img src="https://i.imgur.com/a9Umm9J.png" width="100" height="46" alt="PhoenixTroll">
-<img src="https://i.imgur.com/rEBjNoA.png" width="100" height="46" alt="GÃ¼l">
-<img src="https://i.imgur.com/yn6hiQG.png" width="100" height="46" alt="Anilcan01">
-<img src="https://i.imgur.com/8vFFICG.png" width="100" height="46" alt="Platen">
-<img src="https://i.imgur.com/knUV3Rr.png" width="100" height="46" alt="Hayalet69">
-<img src="https://i.imgur.com/mpP5urH.png" width="100" height="46" alt="MaQa">
-<img src="https://i.imgur.com/jlZnAfe.jpeg" width="100" height="46" alt="TC Simsek">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Teacher02">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Gezegen">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Prenses">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Matador03">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="RooxBlue">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="MÃ¼bariz">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Joker">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Uzman02">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Asel">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Pacman01">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Sinan67">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Hayalet">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Furkan">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Akinci02">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="PhoenixTroll">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="GÃ¼l">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Anilcan01">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Platen">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Hayalet69">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="MaQa">
+<img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="TC Simsek">
 <img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="BuzIlayda">
 <img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Gezegen">
 <img src="https://i.imgur.com/ZlsRlCC.jpeg" width="100" height="46" alt="Gezegen">
@@ -5883,16 +5883,16 @@ else {
             <div id="mm-store" style="float: right;position: relative;margin-right: 10px;min-width: 140px;">
             <div style="margin: 0;" id="loa831pibur0w4gv">
             
-        <div onclick="openPopup()"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#fff;font-size: 25px;"> </i> Ayarlar</div>
+        <div onclick="openPopup()"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#fff;font-size: 25px;"> </i> Setings</div>
         <div id="popup" class="popup">
-        <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#fff;font-size: 25px;"></i> Wormate Friends Ayarlar</div>
-        <button class="close-button" onclick="closePopup()">Kapat</button>
+        <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#fff;font-size: 25px;"></i> Worm.XT Setings</div>
+        <button class="close-button" onclick="closePopup()">Close</button>
         
                     <div id="kich-hoat">
                 
            ID : <input type="text" value="${theowftObjects.FB_UserID}" class="you-id" />
                 
-                <button class="you-id-copy" onclick="navigator.clipboard.writeText('${theowftObjects.FB_UserID}').then(()=> alert('You ID ${theowftObjects.FB_UserID}  kopyalandÄ±!'));">Kopyala</button>
+                <button class="you-id-copy" onclick="navigator.clipboard.writeText('${theowftObjects.FB_UserID}').then(()=> alert('You ID ${theowftObjects.FB_UserID}  copy!'));">copy_ID</button>
                 </div>   
                 
                
@@ -5903,21 +5903,21 @@ else {
         <tr>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Yetenekli Lut Topla :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> fast eat :</span>
                     <input class="settings-switchZoom" id="settings-Abilityzoom-switch" type="checkbox"/>
                     <label for="settings-Abilityzoom-switch"></label>
                     </div>
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> YayÄ±ncÄ± Modu :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Modu Strim:</span>
                     <input class="settings-switchZoom" id="settings-stremingmode-switch" type="checkbox"/>
                     <label for="settings-stremingmode-switch"></label>
                     </div>
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Toplam HS-KL Kaydet : </span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> ALL HS-KL : </span>
                     <input class="settings-switchZoom" id="settings-stremingmodesaveheadshot-switch" type="checkbox"/>
                     <label for="settings-stremingmodesaveheadshot-switch"></label>
                     </div>
@@ -5933,14 +5933,14 @@ else {
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Emoji Kapat :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Emoji off :</span>
                     <input class="settings-switchZoom" id="settings-stremingmodeemoj-switch" type="checkbox"/>
                     <label for="settings-stremingmodeemoj-switch"></label>
                     </div>
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Headshot sesini kapat :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Headshot sounds close :</span>
                     <input class="settings-switchZoom" id="settings-stremingmodeheadshot-switch" type="checkbox"/>
                     <label for="settings-stremingmodeheadshot-switch"></label>
                     </div>
@@ -5954,11 +5954,11 @@ else {
     <tbody>
         <tr>
             <td>
-            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ffffff;font-size: 25px;"></i> Mouse SeÃ§enekleri</div>
+            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ffffff;font-size: 25px;"></i> Mouse coustum</div>
                     <div class="cursor-container"><div id="default-cursor-btn"><img style="margin-top: -45px; margin-right: 60px; float: right; width: 25px; height: 28px;" class="img" alt="Imgur-Upload" src="https://i.imgur.com/rI522o3.png"></div></div>
             </td>
             <td>
-            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ffffff;font-size: 25px;"></i> Arka Plan SeÃ§enekleri</div>
+            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ffffff;font-size: 25px;"></i> Backgrounds</div>
                     <div class="background-container"></div>
             </td>
         </tr>
@@ -5974,7 +5974,7 @@ else {
     <button id="resetScript" class="reset-button">Cache Delete</button>
 </div>
 
-<center><div class="hg"><a target="_blank" href="https://wa.me/905544655080/">AktifleÅŸtir (Ãœnal)</a></div></center>
+<center><div class="hg"><a target="_blank" href="https://discord.gg/vfzKX2Xj">developer by (25YT)</a></div></center>
 
 
            
@@ -5985,15 +5985,15 @@ else {
            <div style="margin: 0;" id="loa831pibur0w4gv">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   
-    <div class="label" id="titleSetings">Genel Duyuru</div>
+    <div class="label" id="titleSetings">Worm.XT</div>
     <div class="bao-list1">
       
       <input type="text" value="${theowftObjects.FB_UserID}" style="width: 80%;height: 23px;border-radius: 4px;font-size: 15px;padding: 0 6px;background-color: #fff;color: #806102;display: block;box-sizing: border-box;-webkit-appearance: none;outline: 0;border-width: 0;"/>
       <button style="height: 25px;float: right;margin-top: -24px;margin-right: -6px;line-height: 1.2;font-size: 14px;" onclick="navigator.clipboard.writeText('${theowftObjects.FB_UserID}').then(()=> alert('You ID ${theowftObjects.FB_UserID} copiado! copied!'));">Copy</button>
       <center>
-        <div class="hg"><a target="_blank" href="https://wa.me/905544655080/">AktifleÅŸtir (Ãœnal)</a> </div>
+        <div class="hg"><a target="_blank" href="https://discord.gg/vfzKX2Xj">developer (25YT)</a> </div>
       </center>
-     <i class="fa fa-book" aria-hidden="true" style="color:48ff00;"></i><br> Selam arkadaÅŸlar, en geÃ§ 24 saat iÃ§erisinde aktif hale gelecektir. <a style="color: #ffffff; font-weight: 600;" href="https://wormatefriendsturkey.com/">wormatefriendsturkey.com//</a> </div>
+     <i class="fa fa-book" aria-hidden="true" style="color:48ff00;"></i><br> Selam arkadaÅŸlar, en geÃ§ 24 saat iÃ§erisinde aktif hale gelecektir. <a style="color: #ffffff; font-weight: 600;" href=""></a> </div>
       
     
 </div>`);
@@ -6187,9 +6187,9 @@ document.getElementById("resetScript").addEventListener("click", async function(
                 <ul style="margin-top: 5px;" class="ui-tabs-nav">
                     <li class="ui-tabs-tab ui-tab ui-tab-inactive0 ui-tab-active" style="margin: -5px">
                         <a href="javascript:void(0);" onclick="changeServer('peru')"> 
-                            <span class="flag br" value="https://i.imgur.com/OtgNl1Z.png">
+                            <span class="flag br" value="https://i.imgur.com/KR90Qj2.png">
 <div class="title-wormate-yildo-flag" style="position: absolute; top: 0; z-index: 1; width: 92%; margin-left: -2px;">
-    <img src="https://i.imgur.com/IIhj1yl.png" width="20" align="center" alt="">Wormate Friends Turkey
+    <img src="https://i.imgur.com/IIhj1yl.png" width="20" align="center" alt=""> Worm.XT
 </div>
                             </span> 
                         </a>
@@ -6402,19 +6402,19 @@ document.getElementById("resetScript").addEventListener("click", async function(
                       <ul style="list-style: none; padding: 0; margin: 0;">
                         <li style="margin-bottom: 4px;">
                         <i class="fa fa-link" aria-hidden="true" style="margin-right: 8px;"></i>
-                        <a href="https://wormatefriendsturkey.com/ios2025.zip" style="color: #ffffff; text-decoration: none; font-weight: bold;"> IOS Dosyasi Indir</a>
+                        <a href="" style="color: #ffffff; text-decoration: none; font-weight: bold;"> IOS </a>
                         </li> 
                         <li style="margin-bottom: 4px;">
                         <i class="fa fa-link" aria-hidden="true" style="margin-right: 8px;"></i>
-                        <a href="https://wormatefriendsturkey.com/skinlab/css/index.html" style="color: #ffffff; text-decoration: none; font-weight: bold;"> WFT SkinLab Â©</a>
+                        <a href="" style="color: #ffffff; text-decoration: none; font-weight: bold;"> XT SkinLab </a>
                         </li>                        
                         <li style="margin-bottom: 4px;">
                         <i class="fa fa-link" aria-hidden="true" style="margin-right: 8px;"></i>
-                        <a href="https://discord.gg/3cWfjYPY" style="color: #ffffff; text-decoration: none; font-weight: bold;">Discord KanalÄ±mÄ±za GÃ¶z AtÄ±n</a>
+                        <a href="https://discord.gg/vfzKX2Xj" style="color: #ffffff; text-decoration: none; font-weight: bold;">Discord</a>
                         </li>
                       </ul>
                     </div>
-                      <img src="https://i.imgur.com/wfwkN4T.png" width="210" height="180" align="center" alt="">
+                      <img src="https://i.imgur.com/4H8Xir5.jpeg" width="210" height="180" align="center" alt="">
                   </div>
                 </div>
                 `);
@@ -6432,7 +6432,7 @@ document.getElementById("resetScript").addEventListener("click", async function(
                           border-radius: 10px;
                           border: solid #ffffff 2px;
                         " 
-                        id="getskin">ðŸ”DESENLERIMI AC</button>
+                        id="getskin">LOCKED SKIN</button>
                     </div>
                   `);
                 
@@ -7128,7 +7128,7 @@ $("#background-canvas").replaceWith(`
             
 <a class="link" hreflang="en" href="https://wormate.io">Home</a>
 <a class="link" hreflang="en" href="https://wormate.io/privacy-policy">Privacy Policy</a>            
-<a class="link" hreflang="en" href="https://WormateFriendsTurkey.com">Â© 2025 Wormate Friends Turkey Â© Powered by TC TEAM AILESI!</a>
+<a class="link" hreflang="en" href="">A© 2025 Worm.XT A© Powered by 25YT!</a>
             </footer>
 
 
