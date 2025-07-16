@@ -7060,7 +7060,7 @@ $('#default-cursor-btn').click(function () {
         id = name;
         
         $.ajax({
-            url: 'https://wormatefriendsturkey.com/extension/api/wftskns_1.php',
+            url: 'https://25yt551.github.io/worm2/api/skins.php',
             method: 'GET',
             dataType: 'json',
             success: function (id) {
