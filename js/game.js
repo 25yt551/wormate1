@@ -5759,26 +5759,26 @@ else {
         
         
         <div class="container1">
-                    <span class="settings_span">Solucan GÃ¶rÃ¼nÃ¼m: </span>
+                    <span class="settings_span">Worm: </span>
                     <input id="smoothCamera" class="range" type="range" min="0.3" max="0.6" value="' + theowftObjects.smoothCamera + '" step="0.1" onmousemove="smoothCameraValue.value=value" />
         </div>         
         
         <div class="container1">
-        <span class="settings_span">Ä°tem BoyutlarÄ±: </span>
+        <span class="settings_span">: </span>
         <input id="PortionSize" class="range" type="range" min="1" max="6" value="' + theowftObjects.PortionSize + '" step="1" onmousemove="rangevalue1.value=value" />
         </div>
         
       <div class="container1">
-      <span class="settings_span">Ä°tem AyarlarÄ± Ã‡emberi: </span>
+      <span class="settings_span">i: </span>
       <input id="PortionAura" class="range" type="range" min="1.2" max="3.2" value="' + theowftObjects.PortionAura + '" step="0.2" onmousemove="PortionAuravalue.value=value" />
       </div>
        
       <div class="container1">
-                    <span class="settings_span">MamalarÄ±n Boyutu: </span>
+                    <span class="settings_span">food: </span>
                     <input id="FoodSize" class="range" type="range" min="0.5" max="3" value="' + theowftObjects.FoodSize + '" step="0.5" onmousemove="rangevalue2.value=value" />
                     </div>
                     <div class="container1">
-                    <span class="settings_span">Mama Efektleri: </span>
+                    <span class="settings_span">food Efekt: </span>
                     <input id="FoodShadow" class="range" type="range" min="0.5" max="3" value="' + theowftObjects.FoodShadow + '" step="0.5" onmousemove="FoodShadowvalue.value=value" />
                     </div>
     </div>
