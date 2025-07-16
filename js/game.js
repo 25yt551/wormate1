@@ -365,7 +365,7 @@ ctx.value_tophs.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 1. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top1 = new PIXI.Text("1. UNALðŸ’«Tâ˜ª áµ€á´±á´¬á´¹ (94.4M)", ctx.fontStyle.name);
+ctx.value_top1 = new PIXI.Text("1. 25YT (94.4M)", ctx.fontStyle.name);
 ctx.value_top1.x = 12;
 ctx.value_top1.y = 170;
 ctx.value_top1.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -373,7 +373,7 @@ ctx.value_top1.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 2. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top2 = new PIXI.Text("2. AtikaðŸŽ€Tunisia (60.0M)", ctx.fontStyle.name);
+ctx.value_top2 = new PIXI.Text("2. AzizAfg (60.0M)", ctx.fontStyle.name);
 ctx.value_top2.x = 12;
 ctx.value_top2.y = 185;
 ctx.value_top2.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -381,7 +381,7 @@ ctx.value_top2.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 3. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top3 = new PIXI.Text("3. YT ðŸ›‘ LIVE 52 BUZ (38.9M)", ctx.fontStyle.name);
+ctx.value_top3 = new PIXI.Text("3. Malboro (38.9M)", ctx.fontStyle.name);
 ctx.value_top3.x = 12;
 ctx.value_top3.y = 200;
 ctx.value_top3.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -389,7 +389,7 @@ ctx.value_top3.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 4. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top4 = new PIXI.Text("4. TIK ZEKO (18.4M)", ctx.fontStyle.name);
+ctx.value_top4 = new PIXI.Text("4. ahmadafg (18.4M)", ctx.fontStyle.name);
 ctx.value_top4.x = 12;
 ctx.value_top4.y = 215;
 ctx.value_top4.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -397,7 +397,7 @@ ctx.value_top4.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 5. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top5 = new PIXI.Text("5. TIK GICIKBEY (17.3M)", ctx.fontStyle.name);
+ctx.value_top5 = new PIXI.Text("5. teamYT (17.3M)", ctx.fontStyle.name);
 ctx.value_top5.x = 12;
 ctx.value_top5.y = 230;
 ctx.value_top5.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -2046,7 +2046,7 @@ var _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator 
                           }       
 
 
-    var backgroundSprite_1 = error("Headshot ðŸ”¥ ", true);
+    var backgroundSprite_1 = error("Headshot", true);
     this.addChild(backgroundSprite_1);
     this.Pe.push(backgroundSprite_1);
 
@@ -2061,7 +2061,7 @@ var _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator 
 
 
 else {
-    var backgroundSprite_1 = error("ðŸŒŸ Well Done !", false);
+    var backgroundSprite_1 = error(" Well Done !", false);
                         this.addChild(backgroundSprite_1);
                         this.Pe.push(backgroundSprite_1);
                         if (backgroundSprite_1) {
@@ -2471,11 +2471,11 @@ else {
                     if (!Number.prototype.customFormat) {
                         Number.prototype.customFormat = function () {
                             if (this >= 1e9) { // 1 milyar ve Ã¼zeri
-                                return (this / 1e9).toFixed(1) + "BðŸ©";
+                                return (this / 1e9).toFixed(1) + "milion";
                             } else if (this >= 1e6) { // 1 milyon ve Ã¼zeri
-                                return (this / 1e6).toFixed(1) + "MðŸ§";
+                                return (this / 1e6).toFixed(1) + "milion";
                             } else if (this >= 1e3) { // 1.000 ve Ã¼zeri
-                                return (this / 1e3).toFixed(0) + "kðŸ¬";
+                                return (this / 1e3).toFixed(0) + "milion";
                             } else {
                                 return this.dotFormat();
                             }
@@ -4632,10 +4632,10 @@ else {
                        
                         
                          $("#final-continue").html(`
-                         <div id="final-continue1">Devam(Ana Sayfa)</div>
+                         <div id="final-continue1">Continue(Home)</div>
                          `);
                          
-                       $("#final-continue").after("<div id='final-replay'>Tekrar BaÅŸla !</div>");
+                       $("#final-continue").after("<div id='final-replay'>replay !</div>");
                          
                          
                         
