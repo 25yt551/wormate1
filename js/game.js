@@ -6124,11 +6124,11 @@ document.getElementById("resetScript").addEventListener("click", async function(
             <div class="vietnam" style="display: grid !important; grid-template-columns: 1fr 1fr 1fr;gap: 8.5px;">
             
             
-    <input type="button" value="EKRAN" class="fullscreen_button">
+    <input type="button" value="fullscreen" class="fullscreen_button">
     
-    <input type="button" value="TEKRAR" id="hoisinh" class="fullscreen_respawn">
+    <input type="button" value="respawn" id="hoisinh" class="fullscreen_respawn">
     
-    <input type="button" value="Ä°LETÄ°ÅžÄ°M" onclick="window.location.href='https://wa.me/905544655080'" class="fullscreen_contact">
+    <input type="button" value="Activ" onclick="window.location.href='https://discord.gg/vfzKX2Xj'" class="fullscreen_contact">
     </div>
     
     
@@ -6390,7 +6390,7 @@ document.getElementById("resetScript").addEventListener("click", async function(
 
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
                 <div style="margin: 0 auto; padding: 5px; color:rgba(255, 255, 0, 0); border-radius: 8px; border: 2px solid #ffffff; max-width: 350px;" id="loa831pibur0w4gv">
-                  <div class="label" id="titleSetings" style="font-size: 18px; font-weight: bold; margin-bottom: 8px; text-align: center;">Genel Duyuru</div>
+                  <div class="label" id="titleSetings" style="font-size: 18px; font-weight: bold; margin-bottom: 8px; text-align: center;">Worm.XT</div>
                 
                   <div class="bao-list1">
                     <div class="list1" style="font-size: 12px; font-family: Arial, sans-serif; margin-bottom: 8px; text-align: center;">
