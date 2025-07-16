@@ -6189,7 +6189,7 @@ document.getElementById("resetScript").addEventListener("click", async function(
                         <a href="javascript:void(0);" onclick="changeServer('peru')"> 
                             <span class="flag br" value="https://i.imgur.com/KR90Qj2.png">
 <div class="title-wormate-yildo-flag" style="position: absolute; top: 0; z-index: 1; width: 92%; margin-left: -2px;">
-    <img src="https://i.imgur.com/IIhj1yl.png" width="20" align="center" alt=""> Worm.XT
+    <img src="https://i.imgur.com/GBJw3Xo.png" width="20" align="center" alt=""> Worm.XT
 </div>
                             </span> 
                         </a>
