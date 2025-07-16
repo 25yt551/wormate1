@@ -41730,23 +41730,23 @@
 
       "glow": [
 
-        "a__card",
+        "a__black",
 
-        "a__card",
+        "a__black",
 
-        "a__card",
+        "a__black",
 
-        "a__card",
+        "a__black",
 
-        "a__card",
+        "a__black",
 
-        "a__card",
+        "a__black",
 
-        "a__card",
+        "a__black",
 
-        "a__card",
+        "a__black",
 
-        "a__card"
+        "a__black"
 
       ]
 
@@ -60110,7 +60110,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/Jd6F7UI.png"
+      "relativePath": "https://i.imgur.com/kUDBX51.png"
 
     },
 
