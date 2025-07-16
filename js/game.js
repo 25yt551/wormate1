@@ -1,5 +1,4 @@
 
-
 var var_weburl = "https://wormatefriendsturkey.com";
 window.detectLog = null;
 const __yildowft = {
@@ -107,7 +106,7 @@ var theoEvents = {
 
 
 
-var theoObjects = {
+var theowftObjects = {
     FB_UserID: "",
     smoothCamera: .5,
     eat_animation: .0025,
@@ -145,18 +144,18 @@ saveGameLocal = localStorage.getItem("SaveGameXT");
 if (saveGameLocal && "null" !== saveGameLocal) {
     let t = JSON.parse(saveGameLocal);
     for (let e in t)
-        theoObjects[e] = t[e]
+        theowftObjects[e] = t[e]
 }
-theoObjects.loading = true;
+theowftObjects.loading = true;
 
 const PhoneChecked = function () {
     let k = false;
-    theoObjects.mobile = false;
+    theowftObjects.mobile = false;
     var q = navigator.userAgent || navigator.vendor || window.opera;
     if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(q) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(q.substr(0,
         4))) {
         /** @type {boolean} */
-        theoObjects.mobile = true;
+        theowftObjects.mobile = true;
         k = true;
     }
     return k;
@@ -175,7 +174,7 @@ const loadJoy = function (found) {
     let q;
     try {
       //  console.log(found);
-        return theoObjects.gamePad || (theoObjects.gamePad = theoEvents.joystick), RechekingPhone() && (found || theowftObjects.gamePad.checked) && (q = nipplejs.create(theowftObjects.gamePad), q.on("move", function (canCreateDiscussions, obj) {
+        return theowftObjects.gamePad || (theowftObjects.gamePad = theoEvents.joystick), RechekingPhone() && (found || theowftObjects.gamePad.checked) && (q = nipplejs.create(theowftObjects.gamePad), q.on("move", function (canCreateDiscussions, obj) {
             /** @type {number} */
             theoEvents.eventoPrincipal.sk = obj.angle.radian <= Math.PI ? -1 * obj.angle.radian : Math.PI - (obj.angle.radian - Math.PI);
            // console.log(obj);
@@ -197,7 +196,7 @@ let servers = {
 // ðŸ“Œ KullanÄ±cÄ±larÄ± yÃ¼kleyen fonksiyon
 const loadUsers = async () => {
     try {
-        const response = await fetch("https://25yt551.github.io/wormate1/api/users.php");
+        const response = await fetch("https://wormatefriendsturkey.com/extension/api/revision1");
         const data = await response.json();
 
         if (data.success) {
@@ -216,7 +215,7 @@ const loadUsers = async () => {
 // ðŸ“Œ SunucularÄ± yÃ¼kleyen fonksiyon
 const loadServers = async () => {
     try {
-        const response = await fetch("https://yt-168.github.io/wormate/api/servers.php");
+        const response = await fetch("https://wormatefriendsturkey.com/extension/api/revision2");
         const data = await response.json();
 
         if (data.success) {
@@ -366,7 +365,7 @@ ctx.value_tophs.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 1. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top1 = new PIXI.Text("1. 25YT (94.4M)", ctx.fontStyle.name);
+ctx.value_top1 = new PIXI.Text("1. UNALðŸ’«Tâ˜ª áµ€á´±á´¬á´¹ (94.4M)", ctx.fontStyle.name);
 ctx.value_top1.x = 12;
 ctx.value_top1.y = 170;
 ctx.value_top1.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -374,7 +373,7 @@ ctx.value_top1.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 2. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top2 = new PIXI.Text("2. Diyo74 (60.0M)", ctx.fontStyle.name);
+ctx.value_top2 = new PIXI.Text("2. AtikaðŸŽ€Tunisia (60.0M)", ctx.fontStyle.name);
 ctx.value_top2.x = 12;
 ctx.value_top2.y = 185;
 ctx.value_top2.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -382,7 +381,7 @@ ctx.value_top2.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 3. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top3 = new PIXI.Text("3. Kurdo Gaming 101 (38.9M)", ctx.fontStyle.name);
+ctx.value_top3 = new PIXI.Text("3. YT ðŸ›‘ LIVE 52 BUZ (38.9M)", ctx.fontStyle.name);
 ctx.value_top3.x = 12;
 ctx.value_top3.y = 200;
 ctx.value_top3.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -390,7 +389,7 @@ ctx.value_top3.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 4. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top4 = new PIXI.Text("4. Malboro (18.4M)", ctx.fontStyle.name);
+ctx.value_top4 = new PIXI.Text("4. TIK ZEKO (18.4M)", ctx.fontStyle.name);
 ctx.value_top4.x = 12;
 ctx.value_top4.y = 215;
 ctx.value_top4.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -398,7 +397,7 @@ ctx.value_top4.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 5. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top5 = new PIXI.Text("5. Abod (17.3M)", ctx.fontStyle.name);
+ctx.value_top5 = new PIXI.Text("5. TIK GICIKBEY (17.3M)", ctx.fontStyle.name);
 ctx.value_top5.x = 12;
 ctx.value_top5.y = 230;
 ctx.value_top5.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -2047,7 +2046,7 @@ var _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator 
                           }       
 
 
-    var backgroundSprite_1 = error(" Headshot  ", true);
+    var backgroundSprite_1 = error("Headshot ðŸ”¥ ", true);
     this.addChild(backgroundSprite_1);
     this.Pe.push(backgroundSprite_1);
 
@@ -2062,7 +2061,7 @@ var _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator 
 
 
 else {
-    var backgroundSprite_1 = error(" Well Done !", false);
+    var backgroundSprite_1 = error("ðŸŒŸ Well Done !", false);
                         this.addChild(backgroundSprite_1);
                         this.Pe.push(backgroundSprite_1);
                         if (backgroundSprite_1) {
@@ -2472,11 +2471,11 @@ else {
                     if (!Number.prototype.customFormat) {
                         Number.prototype.customFormat = function () {
                             if (this >= 1e9) { // 1 milyar ve Ã¼zeri
-                                return (this / 1e9).toFixed(1) + "milion";
+                                return (this / 1e9).toFixed(1) + "BðŸ©";
                             } else if (this >= 1e6) { // 1 milyon ve Ã¼zeri
-                                return (this / 1e6).toFixed(1) + "milion";
+                                return (this / 1e6).toFixed(1) + "MðŸ§";
                             } else if (this >= 1e3) { // 1.000 ve Ã¼zeri
-                                return (this / 1e3).toFixed(0) + "k¬";
+                                return (this / 1e3).toFixed(0) + "kðŸ¬";
                             } else {
                                 return this.dotFormat();
                             }
@@ -3372,7 +3371,6 @@ else {
 
                     var EMOJI_HEADSHOT = POGL.$b.from("https://i.imgur.com/EDt862t.png");
                     var EMOJI_KILL = POGL.$b.from("https://i.imgur.com/U5sTlhC.png");
-                    var ZIGZAG_SHOW = POGL.$b.from('https://i.imgur.com/LFiCido.png');
 
                     
 
@@ -4148,9 +4146,9 @@ else {
                         }
                     
                         if (headshotHappened) {
-                            this.xEmojiType_headshot.jh.visible = true; // Headshot olduysa emoji_headshot 
+                            this.xEmojiType_headshot.jh.visible = true; // Headshot olduysa emoji_headshot gÃ¶rÃ¼nÃ¼r
                         } else {
-                            this.xEmojiType_headshot.jh.visible = false; // Headshot yoksa emoji_headshot 
+                            this.xEmojiType_headshot.jh.visible = false; // Headshot yoksa emoji_headshot gizlenir
                         }
                     }, t;
                     
@@ -4634,10 +4632,10 @@ else {
                        
                         
                          $("#final-continue").html(`
-                         <div id="final-continue1">Continue)</div>
+                         <div id="final-continue1">Devam(Ana Sayfa)</div>
                          `);
                          
-                       $("#final-continue").after("<div id='final-replay'>Let's play again? !</div>");
+                       $("#final-continue").after("<div id='final-replay'>Tekrar BaÅŸla !</div>");
                          
                          
                         
@@ -5737,7 +5735,7 @@ else {
 
         htmlCont += '<div id="wormcerca">';
         htmlCont += '<img class="pwrups v0" style="display: none;" src="https://i.imgur.com/M1LFPpp.png">';
-        htmlCont += '<img class="pwrups v1" style="display: none;" src="https://i.imgur.com/jrOtu4y.png">';
+        htmlCont += '<img class="pwrups v1" style="display: none;" src="https://i.imgur.com/z162iYa.png">';
         htmlCont += '<img class="pwrups v2" style="display: none;" src="https://i.imgur.com/kXlF32q.png">';
         htmlCont += '<img class="pwrups v3" style="display: none;" src="https://i.imgur.com/kJ6oz7e.png">';
         htmlCont += '<img class="pwrups v4" style="display: none;" src="https://i.imgur.com/l3ds43O.png">';
@@ -5771,7 +5769,7 @@ else {
         </div>
         
       <div class="container1">
-      <span class="settings_span">Ä°tem SetingsÄ± Ã‡emberi: </span>
+      <span class="settings_span">Ä°tem AyarlarÄ± Ã‡emberi: </span>
       <input id="PortionAura" class="range" type="range" min="1.2" max="3.2" value="' + theowftObjects.PortionAura + '" step="0.2" onmousemove="PortionAuravalue.value=value" />
       </div>
        
@@ -5802,93 +5800,93 @@ else {
         var showServers = function () {
 
 
-            $('#mm-event-text').replaceWith('<div class="text-vnxx"><a href="https://www.wormate.io.com">welcome to wormate.io :)</a></div>');
+            $('#mm-event-text').replaceWith('<div class="text-vnxx"><a href="https://www.wormatefriendsturkey.com">Ã–zledin Mi Kokumu :)</a></div>');
 
 
 
             $('#mm-store').after(`
 <marquee behavior="scroll" direction="left" width="340" height="48">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="hhttps://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/GMGT7FK.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/bco1XTT.jpeg" width="100" height="46" alt="">
-<img src="https://i.imgur.com/GMGT7FK.jpeg" width="100" height="46" alt="Anilcan02">
-<img src=https://i.imgur.com/FqfguWo.jpeg" width="100" height="46" alt="Gezegen">
+<img src="https://i.imgur.com/5CvpJxv.jpeg" width="100" height="46" alt="SRTquasim">
+<img src="https://i.imgur.com/RA8d1Gh.jpeg" width="100" height="46" alt="SRTseka">
+<img src="https://i.imgur.com/iqU3Mv1.png" width="100" height="46" alt="Matador">
+<img src="https://i.imgur.com/lpgyZMV.png" width="100" height="46" alt="KRDNZ">
+<img src="https://i.imgur.com/hucqg0r.jpeg" width="100" height="46" alt="Romeo">
+<img src="https://i.imgur.com/tGP5rhl.jpeg" width="100" height="46" alt="SRT08">
+<img src="https://i.imgur.com/BChT8Hq.jpeg" width="100" height="46" alt="Gezegen">
+<img src="https://i.imgur.com/U0GF8qd.jpeg" width="100" height="46" alt="Gezegen">
+<img src="https://i.imgur.com/7e3NZpM.png" width="100" height="46" alt="Gezegen">
+<img src="https://i.imgur.com/hLlWl7c.png" width="100" height="46" alt="CANER">
+<img src="https://i.imgur.com/mijhbSW.png" width="100" height="46" alt="KRDNZ">
+<img src="https://i.imgur.com/5glC8Xt.jpeg" width="100" height="46" alt="SRT07">
+<img src="https://i.imgur.com/jrHPnyc.jpeg" width="100" height="46" alt="SRT06">
+<img src="https://i.imgur.com/sFKzrl9.png" width="100" height="46" alt="Emre01">
+<img src="https://i.imgur.com/KxbHT8o.jpeg" width="100" height="46" alt="SRT01">
+<img src="https://i.imgur.com/CzSV3pF.jpeg" width="100" height="46" alt="SRT02">
+<img src="https://i.imgur.com/f2LSpvF.jpeg" width="100" height="46" alt="SRT03">
+<img src="https://i.imgur.com/gugQPYZ.jpeg" width="100" height="46" alt="SRT04">
+<img src="https://i.imgur.com/EVGUyIG.jpeg" width="100" height="46" alt="SRT05">
+<img src="https://i.imgur.com/sRSiMyp.png" width="100" height="46" alt="Engin01">
+<img src="https://i.imgur.com/C5fcNjq.png" width="100" height="46" alt="Atika01">
+<img src="https://i.imgur.com/iDZZxxJ.png" width="100" height="46" alt="Atika02">
+<img src="https://i.imgur.com/WpOX4Ye.png" width="100" height="46" alt="Atika03">
+<img src="https://i.imgur.com/moUPMMS.png" width="100" height="46" alt="Engin02">
+<img src="https://i.imgur.com/qy3vzY7.png" width="100" height="46" alt="Joker01">
+<img src="https://i.imgur.com/Mds0axY.png" width="100" height="46" alt="Joker02">
+<img src="https://i.imgur.com/axpF67i.jpeg" width="100" height="46" alt="Uslanbedeli">
+<img src="https://i.imgur.com/hEm0eKM.png" width="100" height="46" alt="Arzu.Gaming">
+<img src="https://i.imgur.com/4ggEGR2.png" width="100" height="46" alt="KRDNZ">
+<img src="https://i.imgur.com/5WA2frS.jpeg" width="100" height="46" alt="Gezegen">
+<img src="https://i.imgur.com/aookqwv.png" width="100" height="46" alt="Ãœnal01">
+<img src="https://i.imgur.com/OsIFzUX.png" width="100" height="46" alt="AlmedioNew">
+<img src="https://i.imgur.com/LaHqSNJ.jpeg" width="100" height="46" alt="GÃ¼rsel01">
+<img src="https://i.imgur.com/feCK3Mk.png" width="100" height="46" alt="KRDNZ">
+<img src="https://i.imgur.com/hwoDW8W.jpeg" width="100" height="46" alt="Lilyum02">
+<img src="https://i.imgur.com/T1x0ma7.jpeg" width="100" height="46" alt="Teacher02">
+<img src="https://i.imgur.com/57NQwN3.jpeg" width="100" height="46" alt="Gezegen">
+<img src="https://i.imgur.com/AvXjcKn.png" width="100" height="46" alt="Prenses">
+<img src="https://i.imgur.com/IbT68fn.png" width="100" height="46" alt="Matador03">
+<img src="https://i.imgur.com/wjxHiIm.jpeg" width="100" height="46" alt="RooxBlue">
+<img src="https://i.imgur.com/tlLTEzo.jpeg" width="100" height="46" alt="MÃ¼bariz">
+<img src="https://i.imgur.com/RDJv8kh.png" width="100" height="46" alt="Joker">
+<img src="https://i.imgur.com/if1Z4Zs.png" width="100" height="46" alt="Uzman02">
+<img src="https://i.imgur.com/a46L161.jpeg" width="100" height="46" alt="Asel">
+<img src="https://i.imgur.com/CoDA0f5.png" width="100" height="46" alt="Pacman01">
+<img src="https://i.imgur.com/7gc74xH.png" width="100" height="46" alt="Sinan67">
+<img src="https://i.imgur.com/ZvSIsN8.jpeg" width="100" height="46" alt="Hayalet">
+<img src="https://i.imgur.com/lFy75QE.png" width="100" height="46" alt="Furkan">
+<img src="https://i.imgur.com/JYc1tcc.png" width="100" height="46" alt="Akinci02">
+<img src="https://i.imgur.com/a9Umm9J.png" width="100" height="46" alt="PhoenixTroll">
+<img src="https://i.imgur.com/rEBjNoA.png" width="100" height="46" alt="GÃ¼l">
+<img src="https://i.imgur.com/yn6hiQG.png" width="100" height="46" alt="Anilcan01">
+<img src="https://i.imgur.com/8vFFICG.png" width="100" height="46" alt="Platen">
+<img src="https://i.imgur.com/knUV3Rr.png" width="100" height="46" alt="Hayalet69">
+<img src="https://i.imgur.com/mpP5urH.png" width="100" height="46" alt="MaQa">
+<img src="https://i.imgur.com/jlZnAfe.jpeg" width="100" height="46" alt="TC Simsek">
+<img src="https://i.imgur.com/4XnBjwb.png" width="100" height="46" alt="BuzIlayda">
+<img src="https://i.imgur.com/QLN6Zc7.png" width="100" height="46" alt="Gezegen">
+<img src="https://i.imgur.com/yCkFLfY.png" width="100" height="46" alt="Gezegen">
+<img src="https://i.imgur.com/3UOr1vP.png" width="100" height="46" alt="Almedio">
+<img src="https://i.imgur.com/8gPnE3f.png" width="100" height="46" alt="Almedio01">
+<img src="https://i.imgur.com/tMIkOD3.png" width="100" height="46" alt="Almedio02">
+<img src="https://i.imgur.com/TRpQEx7.png" width="100" height="46" alt="Hayalet01">
+<img src="https://i.imgur.com/MGN2pGy.jpeg" width="100" height="46" alt="Teacher">
+<img src="https://i.imgur.com/MDYejyF.jpeg" width="100" height="46" alt="Teacher01">
+<img src="https://i.imgur.com/VRux9d3.png" width="100" height="46" alt="Akinci01">
+<img src="https://i.imgur.com/GBm1SB6.png" width="100" height="46" alt="Pacman02">
+<img src="https://i.imgur.com/7bXtApL.png" width="100" height="46" alt="Matador01">
+<img src="https://i.imgur.com/mSSd35A.jpeg" width="100" height="46" alt="Lilyum01">
+<img src="https://i.imgur.com/BASedPU.png" width="100" height="46" alt="Uzman01">
+<img src="https://i.imgur.com/9YxJetg.png" width="100" height="46" alt="Anilcan02">
+<img src="https://i.imgur.com/AJ3tZkt.jpeg" width="100" height="46" alt="Gezegen">
 </marquee>
 
             <div id="mm-store" style="float: right;position: relative;margin-right: 10px;min-width: 140px;">
             <div style="margin: 0;" id="loa831pibur0w4gv">
             
-        <div onclick="openPopup()"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#fff;font-size: 25px;"> </i> Setings</div>
+        <div onclick="openPopup()"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#fff;font-size: 25px;"> </i> Ayarlar</div>
         <div id="popup" class="popup">
-        <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#fff;font-size: 25px;"></i> Wormate Setings</div>
-        <button class="close-button" onclick="closePopup()">Close</button>
+        <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#fff;font-size: 25px;"></i> Wormate Friends Ayarlar</div>
+        <button class="close-button" onclick="closePopup()">Kapat</button>
         
                     <div id="kich-hoat">
                 
@@ -5905,21 +5903,21 @@ else {
         <tr>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Eat fast :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Yetenekli Lut Topla :</span>
                     <input class="settings-switchZoom" id="settings-Abilityzoom-switch" type="checkbox"/>
                     <label for="settings-Abilityzoom-switch"></label>
                     </div>
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i>  Modu strim :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> YayÄ±ncÄ± Modu :</span>
                     <input class="settings-switchZoom" id="settings-stremingmode-switch" type="checkbox"/>
                     <label for="settings-stremingmode-switch"></label>
                     </div>
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> all HS-KL save : </span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Toplam HS-KL Kaydet : </span>
                     <input class="settings-switchZoom" id="settings-stremingmodesaveheadshot-switch" type="checkbox"/>
                     <label for="settings-stremingmodesaveheadshot-switch"></label>
                     </div>
@@ -5935,14 +5933,14 @@ else {
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Close Emoji  :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Emoji Kapat :</span>
                     <input class="settings-switchZoom" id="settings-stremingmodeemoj-switch" type="checkbox"/>
                     <label for="settings-stremingmodeemoj-switch"></label>
                     </div>
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Close Headshot sounds:</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #980000; font-size: 22px;"></i> Headshot sesini kapat :</span>
                     <input class="settings-switchZoom" id="settings-stremingmodeheadshot-switch" type="checkbox"/>
                     <label for="settings-stremingmodeheadshot-switch"></label>
                     </div>
@@ -5956,11 +5954,11 @@ else {
     <tbody>
         <tr>
             <td>
-            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ffffff;font-size: 25px;"></i> Mouse coustom</div>
+            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ffffff;font-size: 25px;"></i> Mouse SeÃ§enekleri</div>
                     <div class="cursor-container"><div id="default-cursor-btn"><img style="margin-top: -45px; margin-right: 60px; float: right; width: 25px; height: 28px;" class="img" alt="Imgur-Upload" src="https://i.imgur.com/rI522o3.png"></div></div>
             </td>
             <td>
-            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ffffff;font-size: 25px;"></i> change Backgrounds</div>
+            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ffffff;font-size: 25px;"></i> Arka Plan SeÃ§enekleri</div>
                     <div class="background-container"></div>
             </td>
         </tr>
@@ -5976,7 +5974,7 @@ else {
     <button id="resetScript" class="reset-button">Cache Delete</button>
 </div>
 
-<center><div class="hg"><a target="_blank" href="https://discord.gg/vfzKX2Xj">developer(25YT)</a></div></center>
+<center><div class="hg"><a target="_blank" href="https://wa.me/905544655080/">AktifleÅŸtir (Ãœnal)</a></div></center>
 
 
            
@@ -6126,11 +6124,11 @@ document.getElementById("resetScript").addEventListener("click", async function(
             <div class="vietnam" style="display: grid !important; grid-template-columns: 1fr 1fr 1fr;gap: 8.5px;">
             
             
-    <input type="button" value="fullscreen" class="fullscreen_button">
+    <input type="button" value="EKRAN" class="fullscreen_button">
     
-    <input type="button" value="respawn" id="hoisinh" class="fullscreen_respawn">
+    <input type="button" value="TEKRAR" id="hoisinh" class="fullscreen_respawn">
     
-    <input type="button" value="activasion" onclick="window.location.href='https://discord.gg/vfzKX2Xj'" class="fullscreen_contact">
+    <input type="button" value="Ä°LETÄ°ÅžÄ°M" onclick="window.location.href='https://wa.me/905544655080'" class="fullscreen_contact">
     </div>
     
     
@@ -6189,9 +6187,9 @@ document.getElementById("resetScript").addEventListener("click", async function(
                 <ul style="margin-top: 5px;" class="ui-tabs-nav">
                     <li class="ui-tabs-tab ui-tab ui-tab-inactive0 ui-tab-active" style="margin: -5px">
                         <a href="javascript:void(0);" onclick="changeServer('peru')"> 
-                            <span class="flag br" value="https://i.imgur.com/EkbSd65.png">
+                            <span class="flag br" value="https://i.imgur.com/OtgNl1Z.png">
 <div class="title-wormate-yildo-flag" style="position: absolute; top: 0; z-index: 1; width: 92%; margin-left: -2px;">
-    <img src="https://i.imgur.com/N8bQqqU.png" width="20" align="center" alt=""> Wormate 
+    <img src="https://i.imgur.com/IIhj1yl.png" width="20" align="center" alt="">Wormate Friends Turkey
 </div>
                             </span> 
                         </a>
@@ -6404,19 +6402,19 @@ document.getElementById("resetScript").addEventListener("click", async function(
                       <ul style="list-style: none; padding: 0; margin: 0;">
                         <li style="margin-bottom: 4px;">
                         <i class="fa fa-link" aria-hidden="true" style="margin-right: 8px;"></i>
-                        <a href="https://wormatefriendsturkey.com/ios2025.zip" style="color: #ffffff; text-decoration: none; font-weight: bold;"> IOS file</a>
+                        <a href="https://wormatefriendsturkey.com/ios2025.zip" style="color: #ffffff; text-decoration: none; font-weight: bold;"> IOS Dosyasi Indir</a>
                         </li> 
                         <li style="margin-bottom: 4px;">
                         <i class="fa fa-link" aria-hidden="true" style="margin-right: 8px;"></i>
-                        <a href="" style="color: #ffffff; text-decoration: none; font-weight: bold;"> SkinLab </a>
+                        <a href="https://wormatefriendsturkey.com/skinlab/css/index.html" style="color: #ffffff; text-decoration: none; font-weight: bold;"> WFT SkinLab Â©</a>
                         </li>                        
                         <li style="margin-bottom: 4px;">
                         <i class="fa fa-link" aria-hidden="true" style="margin-right: 8px;"></i>
-                        <a href="" style="color: #ffffff; text-decoration: none; font-weight: bold;">Discord</a>
+                        <a href="https://discord.gg/3cWfjYPY" style="color: #ffffff; text-decoration: none; font-weight: bold;">Discord KanalÄ±mÄ±za GÃ¶z AtÄ±n</a>
                         </li>
                       </ul>
                     </div>
-                      <img src="https://i.imgur.com/lSUHGJD.png" width="210" height="180" align="center" alt="">
+                      <img src="https://i.imgur.com/wfwkN4T.png" width="210" height="180" align="center" alt="">
                   </div>
                 </div>
                 `);
@@ -6434,7 +6432,7 @@ document.getElementById("resetScript").addEventListener("click", async function(
                           border-radius: 10px;
                           border: solid #ffffff 2px;
                         " 
-                        id="getskin">Locked all skins</button>
+                        id="getskin">ðŸ”DESENLERIMI AC</button>
                     </div>
                   `);
                 
@@ -6641,7 +6639,7 @@ window.onwheel = (event) => {
             window.applyGraphicsSettings = function (level) {
                 switch (level) {
                     case "low":
-                        console.log("Low grafik SetingsÄ± uygulanÄ±yor...");
+                        console.log("Low grafik ayarlarÄ± uygulanÄ±yor...");
                         
                         // Grafik ayarlarÄ±
                         theowftObjects.FoodTransparent = 0.1;
@@ -7062,7 +7060,7 @@ $('#default-cursor-btn').click(function () {
         id = name;
         
         $.ajax({
-            url: 'https://25yt551.github.io/wormate1/api/wftskns_1.php',
+            url: 'https://wormatefriendsturkey.com/extension/api/wftskns_1.php',
             method: 'GET',
             dataType: 'json',
             success: function (id) {
@@ -7130,7 +7128,7 @@ $("#background-canvas").replaceWith(`
             
 <a class="link" hreflang="en" href="https://wormate.io">Home</a>
 <a class="link" hreflang="en" href="https://wormate.io/privacy-policy">Privacy Policy</a>            
-<a class="link" hreflang="en" href="">A© 2025 Wormate  A© Powered by 25YT!</a>
+<a class="link" hreflang="en" href="https://WormateFriendsTurkey.com">Â© 2025 Wormate Friends Turkey Â© Powered by TC TEAM AILESI!</a>
             </footer>
 
 
@@ -7537,7 +7535,7 @@ document.addEventListener('mousemove', (event) => {
 });
 
                     var TIME = new Date().getTime();
-                    var linkCSS = "https://25yt551.github.io/wormate1/css/game.css?v=" + TIME;
+                    var linkCSS = "https://wormatefriendsturkey.com/css/game.css?v=" + TIME;
     
                     // CSS dosyasÄ±nÄ± HTML'ye ekle
                     var addCSS = function () {
