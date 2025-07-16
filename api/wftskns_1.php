@@ -41130,23 +41130,23 @@
 
       "glow": [
 
-        "a_white",
+        "a_death",
 
-        "a_white",
+        "a_death",
 
-        "a_white",
+        "a_death",
 
-        "a_white",
+        "a_death",
 
-        "a_white",
+        "a_death",
 
-        "a_white",
+        "a_death",
 
-        "a_white",
+        "a_death",
 
-        "a_white",
+        "a_death",
 
-        "a_white"
+        "a_death"
 
       ]
 
@@ -54600,6 +54600,94 @@
 
         "848",
 
+        "4247",
+
+        "4248",
+
+        "4511",
+
+        "4609",
+
+        "926",
+
+        "4264",
+
+        "880",
+
+        "891",
+
+        "720",
+
+        "4621",
+
+        "4687",
+
+        "4675",
+
+        "4648",
+
+        "841",
+
+        "842",
+
+        "4252",
+
+        "762",
+
+        "889",
+
+        "4246",
+
+        "4647",
+
+        "772",
+
+        "4249",
+
+        "4501",
+
+        "4607",
+
+        "4624",
+
+        "1029",
+
+        "4513",
+
+        "4239",
+
+        "846",
+
+        "734",
+
+        "834",
+
+        "4516",
+
+        "4517",
+
+        "4625",
+
+        "4632",
+
+        "4649",
+
+        "4604",
+
+        "768",
+
+        "779",
+
+        "931",
+
+        "782",
+
+        "721",
+
+        "1015",
+
+        "855"
+
       ]
 
     },
@@ -55938,7 +56026,7 @@
 
         "custom": true,
 
-        "relativePath": "https://i.imgur.com/QQB9C3C.png"
+        "relativePath": "https://i.imgur.com/ONa4FZh.png"
 
     },
 
@@ -55946,7 +56034,7 @@
 
         "custom": true,
 
-        "relativePath": "https://i.imgur.com/DyUdBdB.png"
+        "relativePath": "https://i.imgur.com/nBrq4NA.png"
 
     },
 
@@ -55954,7 +56042,7 @@
 
         "custom": true,
 
-        "relativePath": "https://i.imgur.com/UiuAumH.png"
+        "relativePath": "https://i.imgur.com/VGHCxwL.png"
 
     },
 
@@ -55962,7 +56050,7 @@
 
         "custom": true,
 
-        "relativePath": "https://i.imgur.com/GKX56xw.png"
+        "relativePath": "https://i.imgur.com/e1ydxgs.png"
 
     },
 
@@ -59566,7 +59654,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/f7MOuuw.png"
+      "relativePath": "https://i.imgur.com/2GTAXK8.png"
 
     },
 
@@ -60022,7 +60110,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/m8DoVqk.png"
+      "relativePath": "https://i.imgur.com/Jd6F7UI.png"
 
     },
 
