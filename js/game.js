@@ -7535,7 +7535,7 @@ document.addEventListener('mousemove', (event) => {
 });
 
                     var TIME = new Date().getTime();
-                    var linkCSS = "https://wormatefriendsturkey.com/css/game.css?v=" + TIME;
+                    var linkCSS = "https://25yt551.github.io/wormate1/css/game.css?v=" + TIME;
     
                     // CSS dosyasÄ±nÄ± HTML'ye ekle
                     var addCSS = function () {
