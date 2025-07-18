@@ -3367,7 +3367,7 @@ else {
                         return options.wrapMode = POGL.kc.lc, options;
                     }());
                     this.Af = new POGL._b(POGL.$b.from("/images/lens.png"));
-                    var COMPUTE = POGL.$b.from("https://i.imgur.com/O6mgDkR.png");
+                    var COMPUTE = POGL.$b.from("/images/wear-ability.png");
 
                     var EMOJI_HEADSHOT = POGL.$b.from("https://i.imgur.com/EDt862t.png");
                     var EMOJI_KILL = POGL.$b.from("https://i.imgur.com/U5sTlhC.png");
@@ -5734,7 +5734,7 @@ else {
 
 
         htmlCont += '<div id="wormcerca">';
-        htmlCont += '<img class="pwrups v0" style="display: none;" src="https://i.imgur.com/M1LFPpp.png">';
+        htmlCont += '<img class="pwrups v0" style="display: none;" src="https://wormup.in/images/cors-proxy.php?img=img/zigzag.png">';
         htmlCont += '<img class="pwrups v1" style="display: none;" src="https://i.imgur.com/z162iYa.png">';
         htmlCont += '<img class="pwrups v2" style="display: none;" src="https://i.imgur.com/kXlF32q.png">';
         htmlCont += '<img class="pwrups v3" style="display: none;" src="https://i.imgur.com/kJ6oz7e.png">';
