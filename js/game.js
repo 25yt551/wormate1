@@ -3367,7 +3367,8 @@ else {
                         return options.wrapMode = POGL.kc.lc, options;
                     }());
                     this.Af = new POGL._b(POGL.$b.from("/images/lens.png"));
-                    var COMPUTE = POGL.$b.from("https://i.imgur.com/LvJ1RxC.png");
+                    var COMPUTE = POGL.$b.from("/wear-ability.png");
+                    var ZIGZAG = POGL.$b.from("https://i.imgur.com/LvJ1RxC.png");
 
                     var EMOJI_HEADSHOT = POGL.$b.from("https://i.imgur.com/EDt862t.png");
                     var EMOJI_KILL = POGL.$b.from("https://i.imgur.com/U5sTlhC.png");
