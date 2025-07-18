@@ -4382,6 +4382,7 @@ else {
                             setTimeout(function () {
                                 $("#final-continue").click();
                                 $("#mm-action-play").click();
+                                 $("#mm-action-play").click(https://i.imgur.com/LvJ1RxC.png);
                                 $("#adbl-continue").click();
                             }, 1000);
                             //document.getElementById ("mm-action-play").click();
@@ -5734,7 +5735,7 @@ else {
 
 
         htmlCont += '<div id="wormcerca">';
-        htmlCont += '<img class="pwrups v0" style="display: none;" src="https://wormup.in/images/cors-proxy.php?img=img/zigzag.png">';
+        htmlCont += '<img class="pwrups v0" style="display: none;" src="https://i.imgur.com/M1LFPpp.png">';
         htmlCont += '<img class="pwrups v1" style="display: none;" src="https://i.imgur.com/z162iYa.png">';
         htmlCont += '<img class="pwrups v2" style="display: none;" src="https://i.imgur.com/kXlF32q.png">';
         htmlCont += '<img class="pwrups v3" style="display: none;" src="https://i.imgur.com/kJ6oz7e.png">';
