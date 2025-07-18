@@ -3368,6 +3368,7 @@ else {
                     }());
                     this.Af = new POGL._b(POGL.$b.from("/images/lens.png"));
                     var COMPUTE = POGL.$b.from("/images/wear-ability.png");
+                    var show_zigzag = new POGL.$b.from("/images/wear-ability.png");
 
                     var EMOJI_HEADSHOT = POGL.$b.from("https://i.imgur.com/EDt862t.png");
                     var EMOJI_KILL = POGL.$b.from("https://i.imgur.com/U5sTlhC.png");
@@ -4382,7 +4383,6 @@ else {
                             setTimeout(function () {
                                 $("#final-continue").click();
                                 $("#mm-action-play").click();
-                                 $("#mm-action-play").click(https://i.imgur.com/LvJ1RxC.png);
                                 $("#adbl-continue").click();
                             }, 1000);
                             //document.getElementById ("mm-action-play").click();
