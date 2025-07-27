@@ -2770,7 +2770,7 @@ window['addEventListener'](_0x1e228d(0x51b), function () {
                             _0x31c3b2[_0xf28e53(0x3b8)]('black', 0.4),
                                 _0x31c3b2['drawCircle'](0x0, 0x0, this['Kf']),
                                 _0x31c3b2[_0xf28e53(0x37d)](),
-                                _0x31c3b2['lineStyle'](0x2, 0xffa200),
+                                _0x31c3b2['lineStyle'](0x1, 0xffa200),
                                 _0x31c3b2[_0xf28e53(0x2d3)](0x0, 0x0, this['Kf']),
                                 _0x31c3b2[_0xf28e53(0x4db)](0x0, -this['Kf']),
                                 _0x31c3b2[_0xf28e53(0x385)](0x0, +this['Kf']),
