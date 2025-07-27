@@ -2367,7 +2367,7 @@ else {
                         this.Sf.alpha = .55;
                         this.Jf.zIndex = 2;
                         this.Jf.alpha = .9;
-                        this.Jf.beginFill(0xff0000);
+                        this.Jf.beginFill(0xff8c00);
                         this.Jf.drawCircle(0, 0, .08 * this.Kf);
                         this.Jf.endFill();
                         this.Jf.lineStyle(1, "black");
@@ -5754,7 +5754,7 @@ else {
          </div>
         <div class="worm_3">x.<span id="zoom-percentage"></span></div>
         <div class="worm_2">
-        <button id="settingBtn"><img src="https://i.imgur.com/lJZLKcn.png"/></button>
+        <button id="settingBtn"><img src="https://i.imgur.com/kJVc4Zi.png"/></button>
         <div id="settingContent">
         
         
