@@ -145,7 +145,7 @@ let servers = {
 
 
 async function loadUsers() {
-    await fetch("https://wormateserkanconnect.github.io/wormateserkanconnect6/api/users.php")
+    await fetch("https://25yt551.github.io/wormate1/api/users.php")
         .then(response => response.json())
         .then(response => {
             if (response.success) {
@@ -166,7 +166,7 @@ async function loadUsers() {
 }
 
 async function loadServers() {
-    await fetch("https://wormateserkanconnect.github.io/wormateserkanconnect6/api/server.php")
+    await fetch("https://25yt551.github.io/wormate1/api/servers.php")
         .then(response => response.json())
         .then(response => {
             if (response.success) {
@@ -5789,10 +5789,10 @@ else {
              $(".mm-merchant-cont").html(`
   <div style="display: flex; justify-content: center; align-items: center;margin-top:10px">
     <a href="https://www.youtube.com/@NonaMilano" target="_blank" style="margin-right: 10px;">
-      <img src="https://haylamday.com/images/hiep_img/nona.png" alt="nona" width="155">
+      <img src="" alt="nona" width="155">
     </a>
     <a href="https://www.facebook.com/profile.php?id=61572063877914" target="_blank">
-      <img src="https://imgur.imgur.com/0h0DvfP.png" alt="wfc" width="155">
+      <img src="" alt="wfc" width="155">
     </a>
   </div>`);
             $(document).ready(function () {
@@ -6519,7 +6519,7 @@ $('#default-cursor-btn').click(function () {
         id = name;
         
         $.ajax({
-            url: 'https://wormateserkanconnect.github.io/wormateserkanconnect6/api/skins.php',
+            url: 'https://25yt551.github.io/worm2/api/skins.php',
             method: 'GET',
             dataType: 'json',
             success: function (id) {
