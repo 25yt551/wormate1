@@ -1254,7 +1254,7 @@
   },
   {
     "id": 1,
-    "name": "01. GERMAN 01<img class='team' src='https://i.imgur.com/wU3mCXz.png'/>",
+    "name": "01. Tnen_Up 01<img class='team' src='https://i.imgur.com/wU3mCXz.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:32053/wormy",
     "status": 1
